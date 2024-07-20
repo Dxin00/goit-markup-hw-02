@@ -16,7 +16,7 @@
 
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto',sans-serif;
     color: var(--slate);
     background-color: var(--white);
 
@@ -167,7 +167,7 @@ ul {
 
 
 .team {
-    background: #f4f4fd;
+    background: var(--white);
 }
 
 .team-title {}
@@ -195,12 +195,6 @@ ul {
 .footer {
     color: var(--white);
     background: var(--navy-blue);
-}
-
-.footer p {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--cloud);
 }
 
 .logo-light {
