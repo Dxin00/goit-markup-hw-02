@@ -1,0 +1,182 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+
+}
+
+ul {
+    list-style: none;
+
+}
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue)
+}
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue)
+    
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+.decor {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.header {}
+
+.header-link:hover,
+.header-link:focus,
+.address-link:hover,
+.address-link:focus,
+.phone-link:hover,
+.phone-link:focus {
+    color: var(--iris);
+}
+
+.header-nav {}
+
+.nav {}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+}
+
+.logo-text {
+    color: var(--iris);     
+}
+
+.logo-dark {}
+
+.address a {
+
+    color: var(--slate)
+    
+}
+
+.hero {
+    background: #2e2f42;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+
+}
+
+.hero-btn {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--ocean);
+    cursor: pointer;
+}
+
+
+.main {
+        
+}
+
+
+.features {}
+
+.features-title {}
+
+.features-item {}
+
+.features-subtitle {}
+
+.features-text {}
+
+
+
+
+.team {
+    background: #f4f4fd;
+}
+
+.team-title {}
+
+.team-item {}
+
+.team-subtitle {}
+
+.team-text {}
+
+
+
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-item {}
+
+.portfolio-subtitle {}
+
+.portfolio-text {}
+
+
+
+.footer {
+    color: #fff;
+    background: #2e2f42;
+}
+
+.logo-light {
+    color: #fff;
+}
