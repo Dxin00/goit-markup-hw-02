@@ -16,7 +16,7 @@
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--slate);
     background-color: var(--white);
 
@@ -24,8 +24,6 @@ body {
 
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
 
 }
 .title {
@@ -86,14 +84,15 @@ ul {
 .logo {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    color: var(--iris);
 }
 
 .logo-text {
-    color: var(--iris);
+    color: var(--navy-blue);
 }
 
 .logo-dark {}
@@ -130,6 +129,7 @@ ul {
 }
 
 .hero-btn {
+    font-family: "Roboto", sans-serif;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -138,14 +138,12 @@ ul {
     color: var(--white);
     background-color: var(--iris);
     cursor: pointer;
-    border: none;
-    padding: 16px 32px;
-    border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.hero-btn:hover,
+.hero-btn:hover {
+    background-color: var(--ocean)
+}
 .hero-btn:focus {
   background-color: var(--ocean);
 }
