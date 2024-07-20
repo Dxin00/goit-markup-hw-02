@@ -30,7 +30,9 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue)
+    color: var(--navy-blue);
+    text-align: center;
+    
 }
 .subtitle {
     font-weight: 500;
@@ -52,21 +54,6 @@ ul {
 .decor {
     text-decoration: none;
 }
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 
 .header {}
 
@@ -113,10 +100,13 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    text-align: center;
 
 }
 
 .hero-btn {
+    color: #fff;
+    background: var(--iris);
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
