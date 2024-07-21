@@ -91,11 +91,9 @@ ul {
     color: var(--iris);
 }
 
-.logo-text {
+.logo-dark {
     color: var(--navy-blue);
 }
-
-.logo-dark {}
 
 .address {
     font-style: normal;
@@ -172,7 +170,7 @@ ul {
 
 .team-title {}
 
-.team-item {
+.team-list {
     background-color: var(--white);
 }
 
