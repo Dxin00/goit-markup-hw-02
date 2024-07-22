@@ -66,8 +66,8 @@ ul {
 .header-link:focus {
     color: var(--ocean);
 }
-.address-list:hover,
-.address-list:focus {
+.address-item:hover,
+.address-item:focus {
     color: var(--iris);
 }
 
